@@ -11,7 +11,7 @@ ADMIN_ID = 8650564088
 YETKAZIB_BERISH_NARXI = 15000
 ISH_VAQTI = "09:00 - 21:00"
 DOKON_MANZILI = "Guliston shahar, Ankologiya Markazi yonida"
-TELEFON = "+998 XX XXX XX XX"
+TELEFON = "+998 999198177"
 
 KATEGORIYA, MAHSULOT, MIQDOR, MANZIL, TASDIQLASH = range(5)
 savatchalar = {}
@@ -33,14 +33,14 @@ KATEGORIYALAR = {
         "Limon (1 kg)": 65000,
     },
     "💧 Suvlar va Ichimliklar": {
-        "Toza suv (0.5L)": 3000,
-        "Toza suv (1L)": 4000,
-        "Toza suv (1.5L)": 6000,
-        "Toza suv (5L)": 7000,
-        "Toza suv (10L)": 10000,
-        "Flesh (1L)": 12000,
-        "Gorilla (1L)": 13000,
-        "Moxito (1L)": 13000,
+        "gazsiz suv (0.5L)": 3000,
+        "Gazsiz suv (1L)": 4000,
+        "Gazsiz suv (1.5L)": 6000,
+        "Suv (5L)": 7000,
+        "Suv (10L)": 10000,
+        "Flesh (1ta)": 12000,
+        "Gorilla (1ta)": 13000,
+        "Moxito (1ta)": 13000,
         "Kola (0.5L)": 7000,
         "Kola (1L)": 12000,
         "Kola (1.5L)": 15000,
