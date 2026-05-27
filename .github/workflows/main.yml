@@ -1,9 +1,11 @@
 name: Telegram Bot
 
 on:
+  schedule:
+    - cron: '0 */5 * * *'
+  workflow_dispatch:
   push:
     branches: [ main ]
-  workflow_dispatch:
 
 jobs:
   run-bot:
@@ -17,4 +19,4 @@ jobs:
       - name: Install dependencies
         run: pip install python-telegram-bot
       - name: Run bot
-        run: python bot.py
+        run: timeout 17000 python bot.py || true
